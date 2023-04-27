@@ -11,6 +11,9 @@ const app = express();
 app.use(cors());
 
 app.use(express.json());
+app.get("/", (req, res) => {
+  res.send("getting");
+});
 
 app.use("/users", userRouter);
 app.use("/media", authenticate, authorize(["student"]), mediaRouter);
