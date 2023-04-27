@@ -1,0 +1,5 @@
+Backend deployed link:
+https://gold-jittery-elk.cyclic.app/
+
+front deployed link:
+https://magnificent-halva-e53e40.netlify.app/login.html
